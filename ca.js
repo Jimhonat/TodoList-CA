@@ -76,4 +76,6 @@ document.getElementById('taskList').addEventListener('click', (e) => {
         const index = e.target.dataset.index;
         todoList.removeTask(index);
     }
-});
+}); 
+
+
